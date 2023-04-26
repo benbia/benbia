@@ -1,3 +1,69 @@
+.header-scrolled {
+  background-color: #153c66;
+  box-shadow: 0 3px 10px rgba(21, 60, 102, 0.1);
+}
 
+.header {
+  width: 100%;
+  background-color: none;
+  position: fixed;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  transition: all 0.3s;
+}
+.header .logo {
+  margin-left: 30px;
+  text-decoration: none;
+  font-family: "Anek Malayalam", sans-serif;
+  color: #1294cc;
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+.first_sect {
+  padding-top: 70px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper .carousel {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.carousel .card {
+  text-align: center;
+  color: #f5f5f7;
+  border-radius: 45px;
+  background: #f5f5f7;
+  box-shadow: 12px 12px 24px #d0d0d2, -12px -12px 24px #ffffff;
+  padding: 0 2rem 2rem 2rem;
+  height: 50vh;
+  border: none !important;
+}
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .carousel .card {
+    height: 70vh;
+  }
+}
+
+.card {
+  margin: 30px;
+}
+
+body {
+  background: #f5f5f7;
+}
 
 /*# sourceMappingURL=style.css.map */

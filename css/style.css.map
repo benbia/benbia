@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/components/_basic.scss","../scss/bases/_variables.scss","../scss/components/_carousel.scss","../scss/style.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAGJ;EAEI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA,OCjBK;EDkBL;EACA;;;AAIR;EACI;;;AE5BJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACG;EACA;;;AAGH;EACE;EACA,ODZO;ECaP;EACE;EACA;EAEF;EACA;EACA;;AAEA;EAXF;IAYI;;;;AAIJ;EACI;;;ACxBJ;EACI,YFJK","file":"style.css"}

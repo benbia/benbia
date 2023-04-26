@@ -1,5 +1,11 @@
 // bases
 
 @import './bases/variables';
+@import './components/basic';
+@import './components/carousel';
 
 // componentes
+
+body {
+    background: $blanco;
+}
