@@ -1,0 +1,106 @@
+@media screen and (max-width: 1200px) {
+
+    .logo {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+
+       .nav  ul {
+            padding: 0;
+            margin-right: 0;
+        }
+    }
+
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
+    .header .nav {
+        margin-right: 0px !important;
+    }
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0 2rem;
+    
+        .first_part {
+            margin-left: 0 !important;
+        }
+    
+        .h1_title {
+            font-size: 14.3vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        .imagen_gr {
+            display: none;
+        }
+        
+    }  
+    
+    .list_item {
+        margin-left: 0 !important;
+    }
+    
+    .contacto {
+        font-size: 2rem;
+    }
+    
+    .carousel .card {
+        height: 40vh;
+    }
+    
+    .wrapper {
+        margin-bottom: 10vh;
+    } 
+
+    .main_section {
+        padding: 3vh;
+    }
+
+}
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+
+    .header .nav {
+        margin-right: 0px !important;
+    }
+    .section {
+        height: 180vh;
+    }
+
+    .card {
+        height: 80vh !important;
+    }
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0 2rem;
+    
+        .first_part {
+            margin-left: 0 !important;
+        }
+    
+        .h1_title {
+            font-size: 6vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+    
+        .imagen_gr {
+            display: none;
+        }
+
+    } 
+
+}
+

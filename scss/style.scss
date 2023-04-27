@@ -1,10 +1,13 @@
 // bases
 
 @import './bases/variables';
-@import './components/basic';
-@import './components/carousel';
+
 
 // componentes
+
+@import './components/basic';
+@import './components/carousel';
+@import './components/mediaq';
 
 body {
     background: $azul-claro;
