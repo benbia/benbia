@@ -106,20 +106,31 @@
 
 
 
-.main_section {
+.main_sections{
     padding: 100px 30px;
     height: 100%;
+    width: max-content;
 
     .h2_title {
         font-family: 'Anuphan', sans-serif;
-            font-weight: 600; 
-            font-size: 2.5rem;
-            color: $azul-oscuro;
-            padding-bottom: 30px;
-
-
+        font-weight: 600; 
+        font-size: 2.5rem;
+        color: $azul-oscuro;
+        padding-bottom: 30px;
     }
+
+    .about {
+        padding-right: 55px;
+        font-family: 'Anuphan', sans-serif;
+        color: $negro;
+        font-weight: 400;
+        font-size: 2em;
+        font-style: italic;
+    }
+    
 }
+
+
 
 .footer {
     background-color: $azul-oscuro;
@@ -139,7 +150,7 @@
 
         .p__footer {
             font-family: 'Anuphan', sans-serif;
-            font-weight: 200; 
+            font-weight: 300; 
             font-size: 1.2rem;
             color: $azul-claro;
             padding-bottom: 10px; 

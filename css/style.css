@@ -89,16 +89,25 @@
   height: auto;
 }
 
-.main_section {
+.main_sections {
   padding: 100px 30px;
   height: 100%;
+  width: max-content;
 }
-.main_section .h2_title {
+.main_sections .h2_title {
   font-family: "Anuphan", sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
   color: #153c66;
   padding-bottom: 30px;
+}
+.main_sections .about {
+  padding-right: 55px;
+  font-family: "Anuphan", sans-serif;
+  color: #2f2e41;
+  font-weight: 400;
+  font-size: 2em;
+  font-style: italic;
 }
 
 .footer {
@@ -116,7 +125,7 @@
 }
 .footer .footer_info .p__footer {
   font-family: "Anuphan", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.2rem;
   color: #E1F2FE;
   padding-bottom: 10px;
