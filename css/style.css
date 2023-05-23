@@ -91,7 +91,9 @@
 
 .main_sections {
   padding-top: 100px;
-  width: max-content;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
 }
 .main_sections .h2_title {
   font-family: "Anuphan", sans-serif;
@@ -258,16 +260,18 @@
     width: 75% !important;
   }
   .section {
-    height: 140vh;
+    height: 110vh;
   }
   .main_sections {
     padding: 2rem 0;
+    height: 140vh;
   }
   .h2_title {
     padding-top: 2rem;
   }
   .about {
-    font-size: 0.7rem;
+    font-weight: 300;
+    font-size: 1.8rem !important;
   }
 }
 @media screen and (max-width: 992px) and (orientation: landscape) {

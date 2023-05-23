@@ -70,11 +70,13 @@
     }
 
     .section {
-        height: 140vh;
+        height: 110vh;
+        
     }
 
     .main_sections {
         padding: 2rem 0;
+        height: 140vh;
     }
 
     .h2_title {
@@ -82,7 +84,8 @@
     }
 
     .about {
-        font-size: 0.7rem;
+        font-weight: 300;
+      font-size: 1.8rem !important;
     }
 
 }
