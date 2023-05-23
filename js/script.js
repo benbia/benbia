@@ -30,6 +30,38 @@ typewriter
   .start();
 
 
+  // sobre nosotros
+
+  var app = document.getElementById('cte');
+
+  var typewriter = new Typewriter(cte, {
+    loop: true,
+    delay: 75,
+  });
+  
+  typewriter
+    .pauseFor(1000)
+    .typeString('Sobre nosotros')
+    .pauseFor(10000)
+    .start();
+
+    //servicios
+
+    var app = document.getElementById('serv');
+
+    var typewriter = new Typewriter(serv, {
+      loop: true,
+      delay: 75,
+    });
+    
+    typewriter
+      .pauseFor(1000)
+      .typeString('Servicios')
+      .pauseFor(10000)
+      .start();
+  
+  
+
 // section scroll
 
   
