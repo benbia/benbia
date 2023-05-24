@@ -79,6 +79,10 @@
         height: 140vh;
     }
 
+    .section_about {
+        height: 120vh;
+    } 
+
     .h2_title {
         padding-top: 2rem;
     }
@@ -119,12 +123,253 @@
             margin-bottom: 20px;
             margin-top: 30px;
         }
-    
+
+        .typing {
+            font-size: 6vw !important;
+        }
+        
+
         .imagen_gr {
+            
             display: none;
         }
 
     } 
 
+    .h2_title {
+        padding-bottom: 20px;
+    }
+
+    
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+
+        .card {
+            width: 80%;
+            height: 40% !important;
+        }
+    }
+
+    .main_sections {
+        height: 230vh;
+    }
+
+    .section_about {
+        height: 130vh;
+    }
 }
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+    .main_sections {
+        height: 280vh;
+    }
+
+    .section_about {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    .main_sections {
+        height: 300vh;
+    }
+
+    .section_about {
+        height: 170vh;
+    }
+
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    
+        .first_part {
+            margin-left: 0 !important;
+        }
+
+    }  
+}
+
+@media screen and (max-width: 1300px) and (orientation: landscape) {
+    .main_sections {
+        height: 70vh;
+    }
+
+    .section_about {
+        height: 50vh;
+    }
+
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    
+        .first_part {
+            margin-left: 0 !important;
+        }
+
+    }  
+}
+
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    .main_sections {
+        height: 90vh;
+    }
+
+    .section_about {
+        height: 70vh;
+    }
+
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    
+        .first_part {
+            margin-left: 0 !important;
+        }
+
+    }  
+}
+
+@media screen and (max-width: 1300px) and (min-width: 800px) and (orientation: portrait) {
+    .main_sections {
+        height: 80vh;
+    }
+
+    .section_about {
+        height: 50vh;
+    }
+
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    
+        .first_part {
+            margin-left: 0 !important;
+            padding: 2rem;
+        }
+
+        .h1_title {
+            font-size: 10vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 0;
+            width: 100%;
+            padding: none;
+        }
+        .typing {
+            font-size: 10vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 20px; 
+        }
+
+    }  
+}
+
+@media screen and (max-width: 770px) and (orientation: portrait) {
+    .main_sections {
+        height: 100vh;
+    }
+
+    .section_about {
+        height: 70vh;
+    }
+
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    
+        .first_part {
+            margin-left: 0 !important;
+            padding: 2rem;
+        }
+
+        .h1_title {
+            font-size: 10vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 0;
+            width: 100%;
+            padding: none;
+        }
+        .typing {
+            font-size: 10vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 20px; 
+        }
+
+    }  
+}
+
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .main_sections {
+        height: 150vh;
+    }
+
+    .section_about {
+        height: 130vh;
+    }
+
+    .first_sect {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    
+        .first_part {
+            margin-left: 0 !important;
+            padding: 2rem;
+        }
+
+        .h1_title {
+            font-size: 12vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 0;
+            width: 100%;
+            padding: none;
+        }
+        .typing {
+            font-size: 12vw !important;
+            align-self: center;
+            text-align: left;
+            margin-bottom: 20px; 
+        }
+
+        .h2_title {
+            font-size: 1.7rem;
+        }
+        .about {
+
+            font-size: 1.5rem !important;
+        }
+    }  
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .main_sections {
+        height: 300vh;
+    }
+
+    .section_about {
+        height: 140vh;
+    }
+
+    
+}
+
 
